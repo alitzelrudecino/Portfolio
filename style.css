@@ -1,0 +1,137 @@
+body h1 {
+    text-align: center;
+    text-transform: uppercase
+    font-size: 700px;
+    letter-spacing: .06em;
+    color: rgb(255, 99, 71, 0.5)
+}
+
+body h1 {
+    font-size: 500%;
+    font-family: Helvetica, arial, sans-serif
+}  
+
+div.gallery {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    width:400px;
+}
+
+div.contact {
+text-align: center;
+}
+
+div.cv{
+  text-align: center;
+}
+
+h2{
+  color: #9d7b27;
+}
+
+h4{
+  color: rgb(109, 107, 107);
+}
+
+img {
+    position: left;
+    right: 10px;
+    width: 500px;
+    padding: 30px;
+  }
+
+.right {
+    font-size: 20px;
+    color: rgb(109, 107, 107);
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+    width: 700px;
+    padding: 30px;
+  }
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    position: relative;
+    overflow: hidden;
+    background-color: #e1b861;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 29px;
+  }
+  
+  .topnav a:hover {
+    color: #9d7b27;
+  }
+  
+  .topnav a.active {
+    background-color: #e1b861;
+  }
+  
+  .topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .topnav-centered a:hover {
+    color: #9d7b27;
+  }
+
+  .topnav-right {
+    float: right;
+  }
+  
+  /* Responsive navigation menu (for mobile devices) */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+      float: none;
+      display: block;
+    }
+    
+    .topnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+  }
+  </style>
+  </head>
+  <body>
+  
+  <!-- Top navigation -->
+  <div class="topnav">
+  
+    <!-- Centered link -->
+    <div class="topnav-centered">
+      <a href="#home" class="active">Home</a>
+    </div>
+    
+    <!-- Left-aligned links (default) -->
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    
+    <!-- Right-aligned links -->
+    <div class="topnav-right">
+      <a href="#search">Search</a>
+      <a href="#about">About</a>
+    </div>
+    
+  </div>
+
